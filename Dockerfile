@@ -1,7 +1,7 @@
 FROM openjdk:8-alpine
 MAINTAINER Filippo De Luca <me@filippodeluca.com>
 
-ENV S3NINJA_VERSION 2.7
+ENV S3NINJA_VERSION 3.1.1
 ENV S3NINJA_DIR /s3ninja
 ENV S3NINJA_DATA_DIR ${S3NINJA_DIR}/data
 
